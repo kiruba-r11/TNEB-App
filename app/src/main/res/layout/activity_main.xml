@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="5dp"
+    android:padding="5dp"
+    android:background="@color/light_blue"
+    android:gravity="center_horizontal"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:text="Enter Previous Cycle Reading :"
+            android:textSize="20sp"
+            android:layout_weight="2"
+            android:textColor="@color/maroon"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:padding="10dp"/>
+        <EditText
+            android:id="@+id/editText"
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="20sp"
+            android:textColor="@color/blue"
+            android:textStyle="bold"
+            android:inputType="number"
+            android:gravity="center"
+            android:backgroundTint="@color/blue"
+            android:scrollHorizontally="true"
+            android:padding="10dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="5dp"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:text="Enter Current Cycle Reading :"
+            android:textSize="20sp"
+            android:layout_weight="2"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="@color/maroon"
+            android:padding="10dp"/>
+        <EditText
+            android:id="@+id/editText2"
+            android:layout_width="30dp"
+            android:scrollHorizontally="true"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:inputType="number"
+            android:textStyle="bold"
+            android:textColor="@color/blue"
+            android:backgroundTint="@color/blue"
+            android:padding="10dp"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="Consumed Units"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textColor="@color/maroon"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:textStyle="bold"
+        android:textColorHint="@color/blue"
+        android:background="@color/white"
+        android:textColor="@color/blue"
+        android:gravity="center"
+        android:hint="-"
+        android:padding="10dp"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="Amount to be Paid"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textColor="@color/maroon"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="50dp"
+        android:background="@color/white"
+        android:textColor="@color/blue"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:hint="-"
+        android:textColorHint="@color/blue"
+        android:padding="10dp"/>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CALCULATE"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:padding="10dp"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/blue"/>
+
+</LinearLayout>
