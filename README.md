@@ -3,5 +3,9 @@ A simple app using TextViews, EditTexts, and Buttons to calculate the Electricit
 
 
 ## Screenshots of the App
-<img align="left" src="https://user-images.githubusercontent.com/76843281/105074790-da682600-5aae-11eb-9787-5b1a6b97b960.jpg" height="380" width="220"> 
-<img align="left" src="https://user-images.githubusercontent.com/76843281/105074797-dc31e980-5aae-11eb-9455-1bbb98b263c1.jpg" height="380" width="220"> 
+<table>
+<tr>
+<td> <img src = "screenshots/tneb_1.jpg" height="380" width="210"> </td>
+<td> <img src = "screenshots/tneb_2.jpg" height="380" width="210"> </td>
+</tr>
+</table>
